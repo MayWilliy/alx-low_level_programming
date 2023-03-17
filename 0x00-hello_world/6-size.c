@@ -14,7 +14,7 @@ int main(void)
 	long long int x;
 	float p;
 	char output[145];
-	
+
 	snprintf(output, sizeof(output),
 	"Size of a char: %zu byte(s)\n"
 	"Size of an int: %zu byte(s)\n"
