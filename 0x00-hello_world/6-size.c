@@ -14,16 +14,14 @@ int main(void)
         long long int x;
         float p;
         char output[145];
-	char output[145];
         
-	snprintf(output, sizeof(output),
-	printf("Size of a char: %lu byte(s)\n", sizeof(char));
-		printf("Size of an int: %lu byte(s)\n", sizeof(int));
-			printf("Size of a long int: %lu byte(s)\n",sizeof(long int));
-				printf("Size of a long long: %lu byte(s)\n", sizeof(long long));
-					printf("Size of a float: %lu byte\n", sizeof(float));
-				                sizeof(m), sizeof(n), sizeof(o), sizeof(x), sizeof(p));
-					        printf("%.144s", output);
+		snprintf(output, sizeof(output),
+	 	"Size of a char: %zu byte(s)\n"
+                "Size of an int: %zu byte(s)\n"
+                "Size of a long int: %zu byte(s)\n"
+                "Size of a long long int: %zu byte(s)\n"
+                "Size of a float: %zu byte(s)\n",
+		sizeof(m), sizeof(n), sizeof(o), sizeof(x), sizeof(p));
 
-								return (0);
+		return (0);
 }
