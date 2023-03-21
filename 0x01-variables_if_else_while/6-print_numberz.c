@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	int x;
+	int link;
 
-	for (x = 0; x <= 9; x++)
+	for (link = 0; link <= 9; link++)
 	{
 	{
-	putchar (x);
+	putchar (link + '0');
 	}
 	}
 	putchar ('\n');
