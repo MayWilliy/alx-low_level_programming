@@ -5,9 +5,9 @@
  * Return: Always 0 (success)
  */
 
-int main(){
-}
-		char c;{
+int main(void)
+{
+		char(c); {
 
 		for ("c = 'a'; c <= 'z'; c++")
 	{
@@ -17,4 +17,4 @@ int main(){
 	}
 		putchar('\n');
 		return (0);
-{
+}
