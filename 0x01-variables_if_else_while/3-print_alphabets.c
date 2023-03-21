@@ -1,20 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Don't use prinf
+ * main - Don't use printf
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char x;
 
-	for (x = 'a', : x <= 'z', ++x)
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(x = 'A', : x <= 'Z', ++x)
-		putchar(x);
-		putchar('\n');
+		putchar(c);
+		putchar(c - 32);
 	}
+		putchar('\n');
+
 	return (0);
 }
