@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Don't use printf
@@ -7,15 +8,16 @@
 
 int main(void)
 {
+		char x;
 
-	char x;
-
-	for (x = 'a'; x <= 'z'; x++)
-	{
-		putchar(x);
-		putchar(x - 32);
-	}
-		putchar('\n');
-
-	return (0);
+		for (x = 'a'; x <= 'z'; x++)
+		{
+		putchar (x);
+		}
+		for (x = 'A'; x <= 'Z'; x++)
+		{
+		putchar (x);
+		}
+		putchar ('\n');
+		return (0);
 }
