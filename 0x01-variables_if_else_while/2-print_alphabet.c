@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	char ascii_alpahbet_code;
+	char ascii_alphabet_code;
 
-	for (ascii_alpahbet_code = 'a', ascii_alphabet_code <= 'z',
+	for (ascii_alphabet_code = 'a', ascii_alphabet_code <= 'z',
 	++ascii_alphabet_code){
-		putchar(ascii_alpahbet_code);
+		putchar(ascii_alphabet_code);
 	}
 
 	return (0);
