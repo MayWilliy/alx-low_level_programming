@@ -6,3 +6,7 @@ int _putchar(char c);
 #define MARVINS
 void print_alphabet(void);
 #endif
+#ifndef MARIAM
+#define MARIAM
+void print_alphabet_x10(void);
+#endif
