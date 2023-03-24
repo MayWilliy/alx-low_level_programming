@@ -1,10 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _isupper(int c)
+int _isupper(int c);
 #endif
 #ifndef MARRY
 #define MARRY
-int _putchar(char c)
+int _putchar(char c);
 #endif
 #ifndef MARIAM
 #define MARIAM
