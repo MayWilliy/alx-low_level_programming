@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- ** 1-isdigit.c - check for digits
+ **_isdigit - description
  *
- *	* @c: check through digit for c parameter
+ *	* @c: description
  *
- *	* Return: 1 or 0
+ *	* Return: description
  */
 int _isdigit(int c)
 {
