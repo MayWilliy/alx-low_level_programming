@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * * 2-mul.c - Mulitiplicatio
+ *_mul - description
  *
- *	* @a: first parameter
+ *	* @a: description
  *
- *	* @b: second parameter
+ *	* @b: description
  *
- *	Return: something
+ *	Return: description
  */
 int mul(int a, int b)
 }
-	int mul(int a, int b)
-	}
 	return (a * b);
-	{
 {
