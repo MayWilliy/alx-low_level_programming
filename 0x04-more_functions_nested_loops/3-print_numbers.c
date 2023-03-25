@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * _print_numbers - print numbers
+ * print_numbers - print numbers
  *
  * Description: print number from 0-9
  *
  * Return: Always 0 (Success)
  */
 void print_numbers(void)
-}
+{
 	int i;
 
-	for (i = '0', i <= '9', i++)
-	{
-		_putchar (i);
+		for (i = '0'; i <= '9'; i++)
 		{
-		_putchar ('\n');
-		}
-	}
-	return (0);
-{
+			if (i != 2 && i != 4)
+			{
+				_putchar (i);
+				}
+				_putchar ('\n');
+				}
+			return(0);
+}
