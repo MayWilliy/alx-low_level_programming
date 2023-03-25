@@ -10,3 +10,7 @@ void print_alphabet(void);
 #define MARIAM
 void print_alphabet_x10(void);
 #endif
+#ifndef GREAT
+#define GREAT
+int _islower(int c);
+#endif
