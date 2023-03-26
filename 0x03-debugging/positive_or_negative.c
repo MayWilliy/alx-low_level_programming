@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
 /**
  * main - Entry point of the program
+ * @n: print positive or nevagive
  * Return: Always 0 (Success)
  */
 
