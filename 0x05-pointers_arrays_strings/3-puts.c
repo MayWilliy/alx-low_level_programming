@@ -13,11 +13,15 @@ void _puts(char *str)
 	int j;
 
 	j = 0;
-	while (str[j] != '\0')
+	while (j >= 0)
 	{
-		_put (str[j]);
-		j++;
-	}
-	_putchar ("\n");
+		if (str[j] == "\0")
+		{
+			_putchat ("\n");
+			}	
+				break;
+				_putchar (str[j]);
+					j++;
+				}
 
 }
