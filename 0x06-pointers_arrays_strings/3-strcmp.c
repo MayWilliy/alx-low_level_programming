@@ -17,10 +17,10 @@ int _strcmp(char *s1, char *s2)
 	int counter, comVal;
 
 	counter = 0;
-	while (s1[counter] == s2[camVal0] && s1[counter] != '\0')
+	while (s1[counter] == s2[counter] && s1[counter] != '\0')
 	{
 		counter++;
 	}
-	camVal = s1[counter] - s2[counter];
-	return (camVal);
+	comVal = s1[counter] - s2[counter];
+	return (comVal);
 }
