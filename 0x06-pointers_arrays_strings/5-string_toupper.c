@@ -3,22 +3,22 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  *
- * @ch: pointer to string
  * @n: numbers of element of array
  *
- * Return: pointer to upper string
+ * Return: n
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int length;
 
 	length = 0;
-	while (ch[length] != '\0')
+	while (n[length] != '\0')
 	{
-		if (ch[length] >= 97 && ch[length] <= 122)
+		if (n[length] >= 97 && n[length] <= 122)
 		{
-			length++;
+			n[length] = n[length] - 32;
+				n++;
 		}
 	}
-	return (ch);
+	return (n);
 }
