@@ -12,9 +12,12 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	char *magicstick1 = src;
+	char *magicstick2 = dest;
+
 	while (n)
 	{
-		*(dest++) = *(src++);
+		*(magicstick2++) = *(magicstick1++);
 		n--;
 	}
 	return (dest);
