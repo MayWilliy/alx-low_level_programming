@@ -11,6 +11,6 @@
 
 int main(void)
 {
-	printf("complied from %s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
