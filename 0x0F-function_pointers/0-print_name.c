@@ -10,10 +10,13 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	printf("Hello, my name is %s\n", name);
+	unsigned int i;
+
+	for (i = 0; name[i] != '\0'; i++)
+	{
+		_putchar(name[i]);
+	}
+		_putchar('\n');
 
 	f(name);
 }
-
-
-	
