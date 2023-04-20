@@ -10,13 +10,10 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	unsigned int i;
-
-	for (i = 0; name[i] != '\0'; i++)
+	if (!name || !f)
 	{
-		_putchar(name[i]);
+		return;
 	}
-		_putchar('\n');
 
 	f(name);
 }
