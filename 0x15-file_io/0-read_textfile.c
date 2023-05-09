@@ -23,7 +23,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buffer = malloc(letters);
 		if (buffer == NULL)
-			return (0);
+		return (0);
 
 	fp = fopen(filename, "r");
 	if (fp == NULL)
@@ -35,7 +35,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	bytes_read = fread(buffer, sizeof(char), letters, fp);
 
-	if (bytes_read == 1)
+	if (bytes_read == 0)
 	{
 		free(buffer);
 		fclose(fp);
@@ -44,7 +44,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	bytes_writing = fwrite(buffer, sizeof(char), bytes_read, stdout);
 
-	if (bytes_writing == 1)
+	if (bytes_writing != bytes_read)
 	{
 		free(buffer);
 		fclose(fp);
