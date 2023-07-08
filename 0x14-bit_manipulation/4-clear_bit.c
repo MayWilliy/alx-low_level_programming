@@ -10,8 +10,8 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int Magic box;
 
-	if (index >= sizeof (unsigned long int) * 8)
-		return(-1);
+	if (index >= sizeof(unsigned long int) * 8)
+		return (-1);
 
 	magicbox = 1UL << index;
 	*n &= ~magic box;
